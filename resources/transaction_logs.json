@@ -1,0 +1,23 @@
+[
+  {
+    "account_number": 1001,
+    "amount": 100.0,
+    "transaction_type": "withdraw",
+    "date": "2024-11-21T00:05:15.261610",
+    "to_account_number": null
+  },
+  {
+    "account_number": 1002,
+    "amount": 1234.0,
+    "transaction_type": "deposit",
+    "date": "2024-11-21T00:05:31.174050",
+    "to_account_number": null
+  },
+  {
+    "account_number": 1002,
+    "amount": 100.0,
+    "transaction_type": "transfer",
+    "date": "2024-11-24T00:05:48.405127",
+    "to_account_number": 1001
+  }
+]

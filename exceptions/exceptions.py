@@ -11,3 +11,12 @@ class InvalidPinException(Exception):
 
 class TransferLimitExceededException(Exception):
     pass
+
+class AccountAlreadyActiveException(Exception):
+    pass
+
+class AccountAlreadyDeactivatedException(Exception):
+    pass
+
+class AccountDoesNotExistException(Exception):
+    pass

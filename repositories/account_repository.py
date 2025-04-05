@@ -3,6 +3,7 @@
 class AccountRepository:
     # Class attribute to store all the elements
     accounts = []
+    users = []
     account_counter = 1000
 
     # Method to generate a new account number
